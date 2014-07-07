@@ -13,6 +13,7 @@
 		97680507195DE42E008F2201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97680505195DE42E008F2201 /* Main.storyboard */; };
 		97680509195DE42E008F2201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97680508195DE42E008F2201 /* Images.xcassets */; };
 		97680515195DE42E008F2201 /* SwiftHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97680514195DE42E008F2201 /* SwiftHackathonTests.swift */; };
+		9768051F195DE9A1008F2201 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9768051E195DE9A1008F2201 /* BeaconManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9768050E195DE42E008F2201 /* SwiftHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97680513195DE42E008F2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97680514195DE42E008F2201 /* SwiftHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHackathonTests.swift; sourceTree = "<group>"; };
+		9768051E195DE9A1008F2201 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				976804FF195DE42E008F2201 /* AppDelegate.swift */,
 				97680501195DE42E008F2201 /* FirstViewController.swift */,
 				97680503195DE42E008F2201 /* SecondViewController.swift */,
+				9768051E195DE9A1008F2201 /* BeaconManager.swift */,
 				97680505195DE42E008F2201 /* Main.storyboard */,
 				97680508195DE42E008F2201 /* Images.xcassets */,
 				976804FD195DE42E008F2201 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97680504195DE42E008F2201 /* SecondViewController.swift in Sources */,
+				9768051F195DE9A1008F2201 /* BeaconManager.swift in Sources */,
 				97680500195DE42E008F2201 /* AppDelegate.swift in Sources */,
 				97680502195DE42E008F2201 /* FirstViewController.swift in Sources */,
 			);
@@ -330,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -341,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftHackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
